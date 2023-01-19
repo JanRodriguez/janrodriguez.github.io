@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/janrodriguez/static/css/main.073c9b0a.css",
+    "main.js": "/janrodriguez/static/js/main.9e7292ab.js",
+    "static/js/787.28cb0dcd.chunk.js": "/janrodriguez/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/janrodriguez/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/janrodriguez/index.html",
+    "main.073c9b0a.css.map": "/janrodriguez/static/css/main.073c9b0a.css.map",
+    "main.9e7292ab.js.map": "/janrodriguez/static/js/main.9e7292ab.js.map",
+    "787.28cb0dcd.chunk.js.map": "/janrodriguez/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9e7292ab.js"
+  ]
+}
