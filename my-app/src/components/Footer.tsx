@@ -13,7 +13,7 @@ export default function Footer() {
           width: "100%",
           justifyContent: "center",
           alignItems: "center",
-          position: "absolute",
+          position: "sticky",
           bottom: 0,
           left: 0,
           right: 0,

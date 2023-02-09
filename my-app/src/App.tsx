@@ -1,5 +1,5 @@
 import "./App.css";
-import { Grid, List, ListItem, Typography } from "@mui/material";
+import { Box, Grid, List, ListItem, Typography } from "@mui/material";
 import ResponsiveAppBar from "./components/ResponsiveAppBar";
 import Footer from "./components/Footer";
 import ResearchWorkCard from "./components/ResearchWorkCard";
@@ -11,29 +11,25 @@ import explorationInRL from "./images/exploration-in-rl.png";
 const researchWorks = [
   {
     title: "Deep Learning Clustering",
-    description:
-      "An image generation approach to solving the problem of deep learning clustering",
+    description: "An overview of the current techniques and challenges",
     image: deepLearningClustering,
     url: "https://github.com/JanRodriguez/academic-works/raw/main/Deep_Learning_Clustering.pdf",
   },
   {
     title: "Privacy in an AI world",
-    description:
-      "An image generation approach to solving the problem of deep learning clustering",
+    description: "What is actually at stake when losing our privacy?",
     image: privacySurveillance,
     url: "https://github.com/JanRodriguez/academic-works/raw/main/Privacy_in_an_AI_world.pdf",
   },
   {
     title: "Exploration in Reinforcement Learning",
-    description:
-      "An image generation approach to solving the problem of deep learning clustering",
+    description: "An Introduction and Comparison of Three Recent Methods",
     image: explorationInRL,
     url: "https://github.com/JanRodriguez/academic-works/raw/main/Exploration_in_Reinforcement_Learning.pdf",
   },
   {
-    title: "Explainable AI: A Taxonomy of the Different Methods on the Field",
-    description:
-      "An image generation approach to solving the problem of deep learning clustering",
+    title: "Explainable AI: ",
+    description: "A Taxonomy of the Different Methods on the Field",
     image: blackBox,
     url: "https://github.com/JanRodriguez/academic-works/raw/main/Explainable_AI.pdf",
   },
@@ -41,7 +37,7 @@ const researchWorks = [
 
 function App() {
   return (
-    <div className="App">
+    <Box sx={{ textAlign: "center" }}>
       <ResponsiveAppBar />
       <Grid
         sx={{
@@ -58,6 +54,7 @@ function App() {
             justifyContent: "center",
             alignItems: "flex-start",
             display: "flex",
+            marginX: "20px",
           }}
         >
           {researchWorks.map((researchWork) => (
@@ -73,7 +70,7 @@ function App() {
         </List>
       </Grid>
       <Footer />
-    </div>
+    </Box>
   );
 }
 

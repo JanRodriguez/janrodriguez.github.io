@@ -22,6 +22,7 @@ export default function ResearchWorkCard(props: ResearchWorkCardProps) {
         backgroundColor: "#eeeeff",
         justifySelf: "center",
         alignSelf: "center",
+        flexGrow: 1,
       }}
     >
       <CardActionArea onClick={(event) => (window.location.href = props.url)}>
