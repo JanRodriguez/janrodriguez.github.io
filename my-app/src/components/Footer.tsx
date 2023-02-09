@@ -13,6 +13,10 @@ export default function Footer() {
           width: "100%",
           justifyContent: "center",
           alignItems: "center",
+          position: "absolute",
+          bottom: 0,
+          left: 0,
+          right: 0,
         }}
       >
         © Copyright 2023. All rights reserved.
